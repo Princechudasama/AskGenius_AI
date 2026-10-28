@@ -6,7 +6,7 @@ export default defineConfig({
   server:{
     proxy:{
       '/search':{
-        target:'http://localhost:8080',
+        target:'https://askgenius-ai-latest.onrender.com',
         changeOrigin:true,
       },
     },
