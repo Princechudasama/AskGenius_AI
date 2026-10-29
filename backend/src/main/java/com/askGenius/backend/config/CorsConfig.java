@@ -18,7 +18,7 @@ public class CorsConfig {
                         .allowedOrigins(
                                 "http://localhost:5173",
                                 "http://127.0.0.1:5173",
-                                "https://your-project.vercel.app"
+                                "https://askgenius-ai.vercel.app/"
                         )
                         .allowedMethods(
                                 "GET",
